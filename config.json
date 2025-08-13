@@ -1,0 +1,31 @@
+{
+  "copy_interval": 1,
+  "master": {
+    "login": 2001243752,
+    "password": "Test!1234",
+    "server": "JustMarkets-Demo",
+    "mt5_path": "C:\\Users\\bsjbj\\Desktop\\terminal\\r\\terminal64.exe",
+    "magic_number": 100001
+  },
+  "followers": [
+    {
+      "login": 2001243753,
+      "password": "Test!1234",
+      "server": "JustMarkets-Demo",
+      "mt5_path": "C:\\Users\\bsjbj\\Desktop\\terminal\\s\\terminal64.exe",
+      "lot_calculation": "multiplier",
+      "lot_value": 2.0,
+      "max_lot": 100.0,
+      "min_lot": 0.01,
+      "symbol_mapping": {
+        "EURUSD.ecn": "EURUSD.ecn"
+        
+      },
+      "magic_number": 200001,
+      "enabled": true,
+      "max_spread": 5.0,
+      "slippage": 0
+    }
+    
+  ]
+}
